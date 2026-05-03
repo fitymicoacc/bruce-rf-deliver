@@ -1,0 +1,5 @@
+module CLil {
+    header "../../../include/lil.h"
+    link "lil"
+    export *
+}
