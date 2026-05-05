@@ -1,0 +1,26 @@
+# Kotlin/Native cinterop descriptor for liblil on iOS.
+#
+# The xcframework is produced by ../../../../../liblil/scripts/build-ios.sh
+# and lands at ../../../../../liblil/dist/ios/liblil.xcframework/. Each
+# architecture slice contains a static liblil.a and the public header.
+#
+# On platform.iosArm64 we pull from the ios-arm64 slice; simulator builds
+# read from ios-arm64_x86_64-simulator. Gradle's cinterop task picks the
+# right directory based on the target automatically when staticLibraries
+# uses a relative path — we just point at the xcframework root and let
+# the Kotlin/Native toolchain resolve the slice.
+#
+# This file is tracked; regenerate cinterop bindings via
+#   ./gradlew :library:cinteropLiblilIosArm64  (etc.)
+
+package = ru.pluttan.lil.native
+
+headers = lil.h
+headerFilter = lil.h
+
+# Header search path is expected to be injected by library/build.gradle.kts
+# via cinterop { compilerOpts("-I", "${liblilRoot}/include") } so this file
+# stays agnostic of absolute paths.
+
+linkerOpts = -llil
+staticLibraries = liblil.a
