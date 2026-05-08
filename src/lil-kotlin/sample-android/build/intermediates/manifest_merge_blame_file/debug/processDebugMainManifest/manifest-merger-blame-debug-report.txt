@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ru.pluttan.lil.sample"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <!--
+12         BLE permissions (Android 12+ split).
+13         NEVER_FOR_LOCATION lets us skip runtime fine-location prompt.
+14    -->
+15    <uses-permission
+15-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:7:5-9:32
+16        android:name="android.permission.BLUETOOTH_SCAN"
+16-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:7:22-70
+17        android:usesPermissionFlags="neverForLocation" />
+17-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:8:9-55
+18    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+18-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:10:5-11:32
+18-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:10:22-73
+19
+20    <!-- Pre-Android 12 requires the legacy permissions + coarse location -->
+21    <uses-permission
+21-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:14:5-15:38
+22        android:name="android.permission.BLUETOOTH"
+22-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:14:22-65
+23        android:maxSdkVersion="30" />
+23-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:15:9-35
+24    <uses-permission
+24-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:16:5-17:38
+25        android:name="android.permission.BLUETOOTH_ADMIN"
+25-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:16:22-71
+26        android:maxSdkVersion="30" />
+26-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:17:9-35
+27    <uses-permission
+27-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:18:5-19:38
+28        android:name="android.permission.ACCESS_COARSE_LOCATION"
+28-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:18:22-78
+29        android:maxSdkVersion="30" />
+29-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:19:9-35
+30
+31    <uses-feature
+31-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:21:5-23:35
+32        android:name="android.hardware.bluetooth_le"
+32-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:22:9-53
+33        android:required="true" />
+33-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:23:9-32
+34
+35    <permission
+35-->[androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+36        android:name="ru.pluttan.lil.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="ru.pluttan.lil.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:25:5-39:19
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:extractNativeLibs="false"
+45        android:label="@string/app_name"
+45-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:26:9-41
+46        android:theme="@style/Theme.LilSample"
+46-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:27:9-47
+47        android:usesCleartextTraffic="false" >
+47-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:28:9-45
+48        <activity
+48-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:30:9-38:20
+49            android:name="ru.pluttan.lil.sample.MainActivity"
+49-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:31:13-41
+50            android:exported="true"
+50-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:32:13-36
+51            android:label="@string/app_name" >
+51-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:33:13-45
+52            <intent-filter>
+52-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:34:13-37:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:35:17-69
+53-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:35:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:36:17-77
+55-->/home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:36:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+59            android:name="androidx.compose.ui.tooling.PreviewActivity"
+59-->[androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+60            android:exported="true" />
+60-->[androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+61
+62        <provider
+62-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:9:9-17:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:10:13-67
+64            android:authorities="ru.pluttan.lil.sample.androidx-startup"
+64-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:11:13-68
+65            android:exported="false" >
+65-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:12:13-37
+66            <meta-data
+66-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:14:13-16:52
+67                android:name="com.juul.kable.KableInitializer"
+67-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:15:17-63
+68                android:value="androidx.startup" />
+68-->[com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:16:17-49
+69            <meta-data
+69-->[com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:14:13-16:52
+70                android:name="com.juul.tuulbox.coroutines.TuulboxCoroutinesInitializer"
+70-->[com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:15:17-88
+71                android:value="androidx.startup" />
+71-->[com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:16:17-49
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>

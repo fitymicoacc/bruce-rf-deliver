@@ -1,0 +1,370 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [:library] /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/library/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/f53c1732fc4813b3f43fd3ea8bb814c6/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/60f423abe9b42367ea2887007422ce47/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/d35883c6bd40fde353a597a226567639/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/23af382ed7a5699576072e439509d4a5/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/03cc214f69e3eb608c571f6ebae3fa0d/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/3bab32295a099586ab195e9673147ca8/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/4ccb92ba9e402af7f35a864c79dfc8a4/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/4a7519e6ec753585aaaf38e87683dc82/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/20a50a20a57a9481b35b07ec44ce4997/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/eeaf554b171f6a589b353e28bb5d84b9/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/ca32b961cf819bf32134903a0df7a312/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/21c5ff0ea7118d6585977329a18655a2/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/3971d3fa598920c929d8c33dbb639b98/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/d2ed17152185defbed68cdf3e9be6d12/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/f880cb0a8cab9147ee2a58bcf8d1d59b/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/dff9155ee761292a67ae9cec9ea6af58/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/8986fe16a473ee0ec827b592a464fad4/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/0c7d1274f8ed51fbaf6a0f45181e9c84/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/9cdfb0b5eac6efca97c911a3a28ba8a0/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/pluttan/.gradle/caches/8.12/transforms/5c6e02db4cd732e84e49208ce4c6c5cd/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/pluttan/.gradle/caches/8.12/transforms/18e36a80ca219908505a8f3d2966f23a/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/0477545024dd2e9cd1b05529625ee356/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/752a59eb8de553d02632f32c85c899f8/transformed/core-ktx-1.17.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/fb800c8bc23ad0624bb13721e9cfd94d/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:2:1-20:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/pluttan/.gradle/caches/8.12/transforms/190a140760aff2df62dcdf09ddbc2956/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/799b0017e8f1e8c7c35d131d19ce2407/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/22075dc1c5ad386ad9c67c293c462b6c/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/3060afbef0db2d7ceaf3f32ce13ed82c/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/d2675e908702563bab25f7c226f49c63/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/965d01301a33b96bf3f63822d3dfae0a/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/dfe4393358ab44cb95ddc40e41689565/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/1537e5fe7ad15532d2625bb034d0c6df/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/632374f66ede3dcf1e6ecd53d90ba3ea/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/705477a380c8b97bd55e155aa53330f3/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/pluttan/.gradle/caches/8.12/transforms/b30d3faf1f8fed42ef5cae1eb5f7b144/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pluttan/.gradle/caches/8.12/transforms/08d64bb1d91e9620880cd6859111f138/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pluttan/.gradle/caches/8.12/transforms/90139fe100657199bedba721e7254814/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/7eae07401372398d4c97fbaca70e9920/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/9169fede00870fdd378bec51c6e0b9b3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/7aa69406e5fae9f4c62654b12cc6537a/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:7:5-9:32
+	android:usesPermissionFlags
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:8:9-55
+	tools:targetApi
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:9:9-29
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:7:22-70
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:10:5-11:32
+	tools:targetApi
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:11:9-29
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:14:5-15:38
+	android:maxSdkVersion
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:16:5-17:38
+	android:maxSdkVersion
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:17:9-35
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:16:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:18:5-19:38
+	android:maxSdkVersion
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:19:9-35
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:18:22-78
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:21:5-23:35
+	android:required
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:23:9-32
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:22:9-53
+application
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:25:5-39:19
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:8:5-18:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pluttan/.gradle/caches/8.12/transforms/08d64bb1d91e9620880cd6859111f138/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pluttan/.gradle/caches/8.12/transforms/08d64bb1d91e9620880cd6859111f138/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:23:5-29:19
+	android:extractNativeLibs
+		INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:26:9-41
+	android:theme
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:27:9-47
+	android:usesCleartextTraffic
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:28:9-45
+activity#ru.pluttan.lil.sample.MainActivity
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:30:9-38:20
+	android:label
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:33:13-45
+	android:exported
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+MERGED from [:library] /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/library/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:library] /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/library/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/f53c1732fc4813b3f43fd3ea8bb814c6/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/f53c1732fc4813b3f43fd3ea8bb814c6/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/60f423abe9b42367ea2887007422ce47/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/60f423abe9b42367ea2887007422ce47/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/d35883c6bd40fde353a597a226567639/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/d35883c6bd40fde353a597a226567639/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/23af382ed7a5699576072e439509d4a5/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/23af382ed7a5699576072e439509d4a5/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/03cc214f69e3eb608c571f6ebae3fa0d/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/03cc214f69e3eb608c571f6ebae3fa0d/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/3bab32295a099586ab195e9673147ca8/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/3bab32295a099586ab195e9673147ca8/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/4ccb92ba9e402af7f35a864c79dfc8a4/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/4ccb92ba9e402af7f35a864c79dfc8a4/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/4a7519e6ec753585aaaf38e87683dc82/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/4a7519e6ec753585aaaf38e87683dc82/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/20a50a20a57a9481b35b07ec44ce4997/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/20a50a20a57a9481b35b07ec44ce4997/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/eeaf554b171f6a589b353e28bb5d84b9/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/eeaf554b171f6a589b353e28bb5d84b9/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/ca32b961cf819bf32134903a0df7a312/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/ca32b961cf819bf32134903a0df7a312/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/21c5ff0ea7118d6585977329a18655a2/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/21c5ff0ea7118d6585977329a18655a2/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/3971d3fa598920c929d8c33dbb639b98/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/3971d3fa598920c929d8c33dbb639b98/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/d2ed17152185defbed68cdf3e9be6d12/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/d2ed17152185defbed68cdf3e9be6d12/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/f880cb0a8cab9147ee2a58bcf8d1d59b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/f880cb0a8cab9147ee2a58bcf8d1d59b/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/dff9155ee761292a67ae9cec9ea6af58/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/dff9155ee761292a67ae9cec9ea6af58/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/8986fe16a473ee0ec827b592a464fad4/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/8986fe16a473ee0ec827b592a464fad4/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/0c7d1274f8ed51fbaf6a0f45181e9c84/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/0c7d1274f8ed51fbaf6a0f45181e9c84/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/9cdfb0b5eac6efca97c911a3a28ba8a0/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /home/pluttan/.gradle/caches/8.12/transforms/9cdfb0b5eac6efca97c911a3a28ba8a0/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/pluttan/.gradle/caches/8.12/transforms/5c6e02db4cd732e84e49208ce4c6c5cd/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/pluttan/.gradle/caches/8.12/transforms/5c6e02db4cd732e84e49208ce4c6c5cd/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/pluttan/.gradle/caches/8.12/transforms/18e36a80ca219908505a8f3d2966f23a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/pluttan/.gradle/caches/8.12/transforms/18e36a80ca219908505a8f3d2966f23a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:6:5-44
+MERGED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:6:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/0477545024dd2e9cd1b05529625ee356/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/0477545024dd2e9cd1b05529625ee356/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/752a59eb8de553d02632f32c85c899f8/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/752a59eb8de553d02632f32c85c899f8/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/fb800c8bc23ad0624bb13721e9cfd94d/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/fb800c8bc23ad0624bb13721e9cfd94d/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:6:5-44
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:6:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/pluttan/.gradle/caches/8.12/transforms/190a140760aff2df62dcdf09ddbc2956/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/pluttan/.gradle/caches/8.12/transforms/190a140760aff2df62dcdf09ddbc2956/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/799b0017e8f1e8c7c35d131d19ce2407/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/799b0017e8f1e8c7c35d131d19ce2407/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/22075dc1c5ad386ad9c67c293c462b6c/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/22075dc1c5ad386ad9c67c293c462b6c/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/3060afbef0db2d7ceaf3f32ce13ed82c/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/3060afbef0db2d7ceaf3f32ce13ed82c/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/d2675e908702563bab25f7c226f49c63/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/d2675e908702563bab25f7c226f49c63/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/965d01301a33b96bf3f63822d3dfae0a/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/965d01301a33b96bf3f63822d3dfae0a/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/dfe4393358ab44cb95ddc40e41689565/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/dfe4393358ab44cb95ddc40e41689565/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/1537e5fe7ad15532d2625bb034d0c6df/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/1537e5fe7ad15532d2625bb034d0c6df/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/632374f66ede3dcf1e6ecd53d90ba3ea/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/632374f66ede3dcf1e6ecd53d90ba3ea/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/705477a380c8b97bd55e155aa53330f3/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/705477a380c8b97bd55e155aa53330f3/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/pluttan/.gradle/caches/8.12/transforms/b30d3faf1f8fed42ef5cae1eb5f7b144/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/pluttan/.gradle/caches/8.12/transforms/b30d3faf1f8fed42ef5cae1eb5f7b144/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pluttan/.gradle/caches/8.12/transforms/08d64bb1d91e9620880cd6859111f138/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/pluttan/.gradle/caches/8.12/transforms/08d64bb1d91e9620880cd6859111f138/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pluttan/.gradle/caches/8.12/transforms/90139fe100657199bedba721e7254814/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/pluttan/.gradle/caches/8.12/transforms/90139fe100657199bedba721e7254814/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/7eae07401372398d4c97fbaca70e9920/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/7eae07401372398d4c97fbaca70e9920/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/9169fede00870fdd378bec51c6e0b9b3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/9169fede00870fdd378bec51c6e0b9b3/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/7aa69406e5fae9f4c62654b12cc6537a/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/pluttan/.gradle/caches/8.12/transforms/7aa69406e5fae9f4c62654b12cc6537a/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/pluttan/pr/freelance/liligo_clean/lil-kotlin/sample-android/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.5] /home/pluttan/.gradle/caches/8.12/transforms/685c9a73deb484f7161e9729a9b5304e/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:9:9-17:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+MERGED from [androidx.startup:startup-runtime:1.2.0] /home/pluttan/.gradle/caches/8.12/transforms/b570ccebecf0555cc375c840299ce436/transformed/startup-runtime-1.2.0/AndroidManifest.xml:24:9-28:34
+	tools:node
+		ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:13:13-31
+	android:authorities
+		ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:11:13-68
+	android:exported
+		ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:10:13-67
+meta-data#com.juul.kable.KableInitializer
+ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [com.juul.kable:kable-core-android-debug:0.42.0] /home/pluttan/.gradle/caches/8.12/transforms/e6d098681b062e22e3138e4ef2c9a3d0/transformed/kable-core-debug/AndroidManifest.xml:15:17-63
+meta-data#com.juul.tuulbox.coroutines.TuulboxCoroutinesInitializer
+ADDED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:14:13-16:52
+	android:value
+		ADDED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:16:17-49
+	android:name
+		ADDED from [com.juul.tuulbox:coroutines-android-debug:8.1.0] /home/pluttan/.gradle/caches/8.12/transforms/f0627c1ae9cd38a5290864badae7808e/transformed/coroutines-debug/AndroidManifest.xml:15:17-88
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/pluttan/.gradle/caches/8.12/transforms/0e5f8031f01806b94e1d62b3cad47e86/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+permission#ru.pluttan.lil.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+uses-permission#ru.pluttan.lil.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /home/pluttan/.gradle/caches/8.12/transforms/85e65bbe6829abd8b5722db99a7720ea/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/pluttan/.gradle/caches/8.12/transforms/0b7a258252a1cd3fe8a8c20df89668d7/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/pluttan/.gradle/caches/8.12/transforms/9c02c44212b4deb7c2cb2ece97985356/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

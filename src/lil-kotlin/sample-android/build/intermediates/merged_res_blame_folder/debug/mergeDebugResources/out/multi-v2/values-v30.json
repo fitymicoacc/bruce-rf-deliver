@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.pluttan.lil.sample.sample-android-mergeDebugResources-46:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/home/pluttan/.gradle/caches/8.12/transforms/60f423abe9b42367ea2887007422ce47/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}
