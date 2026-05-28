@@ -175,11 +175,3 @@ the LOW side of the sync edge.
 
 Unknown error values from future firmware versions should be treated as
 `NONE` by backward-compatible clients.
-
----
-
-## Changelog
-
-- **2026-04-23** — protocol frozen at this shape for the lil-kotlin +
-  liblil + mock-bruce scaffold. No prior versions beyond the first
-  freelance iteration on the device (same UUIDs, same bytes).
