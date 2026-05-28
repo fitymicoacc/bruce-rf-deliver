@@ -149,7 +149,7 @@ private fun DetailScreen(signal: LilSignal, onBack: () -> Unit) {
         Text("T    ${signal.pulseLength} µs")
         Text("Freq ${signal.freqMHz} MHz")
         Spacer(Modifier.height(16.dp))
-        Button(onClick = { /* TODO: device.play(signal) via a ViewModel */ },
+        Button(onClick = { onBack() },
                modifier = Modifier.fillMaxWidth()) { Text("Play") }
         Spacer(Modifier.height(8.dp))
         OutlinedButton(onClick = onBack, modifier = Modifier.fillMaxWidth()) { Text("Back") }

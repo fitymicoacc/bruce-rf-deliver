@@ -6,10 +6,7 @@
 void setUp(void) {}
 void tearDown(void) {}
 
-static void test_table_has_24_entries(void) {
-    /* Desktop RC_PROTOCOLS has 23 entries + placeholder "Protocol 23".
-     * If the table size changes, update this test + desktop constants.ts
-     * together — the two must stay in lock-step. */
+static void test_table_has_23_entries(void) {
     TEST_ASSERT_EQUAL_UINT(23u, (unsigned)lil_protocol_count());
 }
 
@@ -45,7 +42,7 @@ static void test_lookup_by_index_bounds(void) {
 
 int main(void) {
     UNITY_BEGIN();
-    RUN_TEST(test_table_has_24_entries);
+    RUN_TEST(test_table_has_23_entries);
     RUN_TEST(test_lookup_by_id);
     RUN_TEST(test_lookup_inverted_protocol);
     RUN_TEST(test_lookup_missing_id_returns_null);

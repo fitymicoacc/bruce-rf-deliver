@@ -110,8 +110,8 @@ class LilDevice(
 
 /**
  * Native-decoder bridge. On Android / iOS / JVM / macOS this forwards to
- * the `liblil` shared object via cinterop or JNI; on JS it falls back to
- * a pure-Kotlin brute-force decoder (still TODO — structural stub).
+ * the `liblil` shared object via cinterop or JNI; on JS it uses the
+ * pure-Kotlin [KotlinDecoder] implementation.
  *
  * Actual implementations live in platform source sets.
  */
