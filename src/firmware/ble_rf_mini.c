@@ -76,6 +76,7 @@ static int cmd_write_cb(uint16_t conn_handle, uint16_t attr_handle,
     case CMD_PING:
         break;
     case CMD_PLAY:
+    case CMD_PLAY_CONT:
         if (len >= 17) {
             cmd.protocol = buf[1];
             cmd.key = read_u64_le(&buf[2]);

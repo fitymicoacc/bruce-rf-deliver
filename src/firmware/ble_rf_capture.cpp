@@ -410,6 +410,37 @@ static void pollRx() {
     }
 }
 
+// ===== PLAY_CONT: continuous transmit until STOP =====
+
+static void doPlayContinuous(const DecodedSignal& sig) {
+    currentState = DEV_TRANSMITTING;
+    bleRfService.notifyStatus(DEV_TRANSMITTING);
+
+    detachInterrupt(digitalPinToInterrupt(getGdo0Pin()));
+
+    if (!initRfModule("tx", sig.freq)) {
+        currentState = DEV_ERROR;
+        bleRfService.notifyStatus(DEV_ERROR, ERR_TX_FAIL);
+        return;
+    }
+
+    Serial.printf("[RF] TX CONT: proto=%d key=0x%llX freq=%.2f\n",
+        sig.protocol, (unsigned long long)sig.key, sig.freq);
+
+    while (currentState == DEV_TRANSMITTING) {
+        RCSwitch_send(sig.key, sig.bits, sig.pulseLength, sig.protocol, 3);
+        if (bleRfService.hasCommand()) {
+            BleCommand cmd = bleRfService.getCommand();
+            if (cmd.id == CMD_STOP || cmd.id == CMD_PING) break;
+        }
+        vTaskDelay(pdMS_TO_TICKS(10));
+    }
+
+    currentState = DEV_IDLE;
+    bleRfService.notifyStatus(DEV_IDLE);
+    Serial.println("[RF] TX CONT stopped");
+}
+
 // ===== PLAY: transmit signal via RCSwitch =====
 
 static void doPlay(const DecodedSignal& sig) {
@@ -470,6 +501,10 @@ static void processCommand(const BleCommand& cmd) {
 
         case CMD_PLAY:
             doPlay(cmd.signal);
+            break;
+
+        case CMD_PLAY_CONT:
+            doPlayContinuous(cmd.signal);
             break;
 
         case CMD_PING:

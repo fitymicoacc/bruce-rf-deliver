@@ -47,7 +47,8 @@ enum CommandId : uint8_t {
     CMD_PLAY         = 0x03,  // + proto(1) + key(8) + bits(1) + pulse(2) + freq(4)
     CMD_PING         = 0x04,
     CMD_SCAN_RANGES  = 0x05,  // not implemented (CC1101 has fixed ISM bands)
-    CMD_SCAN_LIST    = 0x06   // + dwell(2) + count(1) + freqs(N*4)
+    CMD_SCAN_LIST    = 0x06,  // + dwell(2) + count(1) + freqs(N*4)
+    CMD_PLAY_CONT   = 0x07   // same body as PLAY, repeats until STOP
 };
 
 // Decoded signal structure

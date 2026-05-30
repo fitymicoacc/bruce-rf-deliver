@@ -243,6 +243,43 @@ static void do_play(const ble_rf_cmd_t *cmd)
     }
 }
 
+static void do_play_continuous(const ble_rf_cmd_t *cmd)
+{
+    const rc_proto_t *p = find_proto(cmd->protocol);
+    if (!p) {
+        ble_rf_mini_notify_status(STATE_ERROR, ERR_TX_FAIL);
+        return;
+    }
+
+    current_state = STATE_TRANSMITTING;
+    ble_rf_mini_notify_status(STATE_TRANSMITTING, ERR_NONE);
+
+    uint8_t frame[768];
+    int frame_len = ook_encode(p, cmd->key, cmd->bits, frame);
+    uint8_t burst[3072];
+    int burst_len = 0;
+    for (int r = 0; r < 3; r++) {
+        memcpy(&burst[burst_len], frame, frame_len);
+        burst_len += frame_len;
+    }
+
+    ESP_LOGI(TAG, "TX CONT: P%d key=0x%llX freq=%.2f",
+             cmd->protocol, (unsigned long long)cmd->key, cmd->freq);
+
+    while (current_state == STATE_TRANSMITTING) {
+        raw_ook_tx(burst, burst_len, p->T);
+        if (ble_rf_mini_connected()) {
+            vTaskDelay(pdMS_TO_TICKS(10));
+        } else {
+            break;
+        }
+    }
+
+    current_state = STATE_IDLE;
+    ble_rf_mini_notify_status(STATE_IDLE, ERR_NONE);
+    ESP_LOGI(TAG, "TX CONT stopped");
+}
+
 /* ===== Listening ===== */
 
 static void start_listening(float freq)
@@ -358,6 +395,9 @@ static void on_ble_cmd(const ble_rf_cmd_t *cmd)
         break;
     case CMD_PLAY:
         do_play(cmd);
+        break;
+    case CMD_PLAY_CONT:
+        do_play_continuous(cmd);
         break;
     case CMD_PING:
         ble_rf_mini_notify_status(current_state, ERR_NONE);

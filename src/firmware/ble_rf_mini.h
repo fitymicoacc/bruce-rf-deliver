@@ -14,6 +14,7 @@
 #define CMD_PING          0x04
 #define CMD_SCAN_RANGES   0x05
 #define CMD_SCAN_LIST     0x06
+#define CMD_PLAY_CONT     0x07
 
 #define STATE_IDLE         0x00
 #define STATE_LISTENING    0x01

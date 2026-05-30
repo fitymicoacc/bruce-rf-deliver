@@ -61,6 +61,19 @@ class RfCmdCallbacks : public NimBLECharacteristicCallbacks {
                 }
                 break;
 
+            case CMD_PLAY_CONT:
+                if (len >= 17) {
+                    bleRfService._pendingCmd.id = CMD_PLAY_CONT;
+                    size_t off = 1;
+                    bleRfService._pendingCmd.signal.protocol = data[off]; off += 1;
+                    memcpy(&bleRfService._pendingCmd.signal.key, &data[off], sizeof(uint64_t)); off += 8;
+                    bleRfService._pendingCmd.signal.bits = data[off]; off += 1;
+                    memcpy(&bleRfService._pendingCmd.signal.pulseLength, &data[off], sizeof(uint16_t)); off += 2;
+                    memcpy(&bleRfService._pendingCmd.signal.freq, &data[off], sizeof(float));
+                    bleRfService._hasCmd = true;
+                }
+                break;
+
             case CMD_PING:
                 bleRfService._pendingCmd.id = CMD_PING;
                 bleRfService._hasCmd = true;
